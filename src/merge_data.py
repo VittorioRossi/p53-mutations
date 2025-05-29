@@ -22,8 +22,8 @@ def merge_dataframes(expression_df, mutation_df):
 
 def main():
     # Read the two CSV files into dataframes
-    df1 = pd.read_csv('/Users/vittorio/Projects/uni/ml_lab/data/raw/OmicsExpressionProteinCodingGenesTPMLogp1BatchCorrected.csv')
-    df2 = pd.read_csv('/Users/vittorio/Projects/uni/ml_lab/data/raw/OmicsSomaticMutationsMatrixDamaging.csv')
+    df1 = pd.read_csv('/Users/vittorio/Projects/uni/ml_lab/data/raw/OmicsExpressionProteinCodingGenesTPMLogp1.csv')
+    df2 = pd.read_csv('/Users/vittorio/Projects/uni/ml_lab/data/raw/OmicsSomaticMutations.csv')
 
     # Merge the dataframes
     merged_df = merge_dataframes(df1, df2)

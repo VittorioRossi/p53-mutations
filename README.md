@@ -1,6 +1,3 @@
-
-
-
 ## Data Sources
 
 This project uses publicly available datasets from the DepMap portal (https://depmap.org/portal/). Specifically:
