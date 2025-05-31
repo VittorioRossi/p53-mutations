@@ -1,3 +1,9 @@
+## How to run
+
+1. Run data_prep.ipynb first
+2. Run explore_ccle.ipynb to generate other data
+3. Run other notebooks
+
 ## Data Sources
 
 This project uses publicly available datasets from the DepMap portal (https://depmap.org/portal/). Specifically:
@@ -7,8 +13,6 @@ This project uses publicly available datasets from the DepMap portal (https://de
 
 To create the training dataset, these two files are merged on the `ModelID` column. The mutation status for the TP53 gene is extracted from the mutation matrix and used as the target variable, while the expression levels of protein-coding genes serve as features.
 
-
-###
 
 cBioPortal CCLE dataset from 2 studies:
 
